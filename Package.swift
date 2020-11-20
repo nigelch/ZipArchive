@@ -3,18 +3,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "SSZipArchive",
+    name: "ZipArchive",
     platforms: [
         .iOS(.v9)
     ],
     products: [
-        .library(name: "SSZipArchive", targets: ["SSZipArchive"])
+        .library(name: "ZipArchive", targets: ["ZipArchive"])
     ],
     dependencies: [
 
     ],
     targets: [
-        .target(name: "SSZipArchive", dependencies: [], path: "SSZipArchive"),
+        .target(name: "ZipArchive", dependencies: [], path: "ZipArchive"),
     ],
     swiftLanguageVersions: [
         .v5
